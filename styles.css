@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameboard {
+    display: flex;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.beige {
+    background-color: rgb(227, 227, 199);
+}
+
+.brown {
+    background-color: rgb(96, 54, 54);
+}
+
+#info {
+    height: 30px;
+}
+
+#card {
+
+}
+
+.playing-card {
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
